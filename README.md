@@ -1,7 +1,11 @@
 Uber Trip Analysis – Power BI Dashboard
+
 Author: Valadasu Gnaneswar
+
 Tool Used: Microsoft Power BI
+
 Project Type: End-to-End Business Dashboard
+
 📌 Overview
 This project provides a comprehensive analysis of Uber trip data using interactive dashboards built in Power BI. The aim is to uncover key trends in bookings, revenue, trip distances, and customer preferences to support data-driven decisions.
 
@@ -118,4 +122,3 @@ Use Export Button for downloading raw trip data
 📬 Contact
 For feedback or questions:
 📧 gnaneswargnana@gmail.com
-🔗 LinkedIn
