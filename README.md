@@ -1,6 +1,6 @@
 Uber Trip Analysis – Power BI Dashboard
 
-Author: Valadasu Gnaneswar
+Valadasu Gnaneswar
 
 Tool Used: Microsoft Power BI
 
