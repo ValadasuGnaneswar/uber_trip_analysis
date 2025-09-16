@@ -1,124 +1,102 @@
-Uber Trip Analysis – Power BI Dashboard
+# 🚖 Uber Trip Analysis – Power BI Dashboard  
 
-Valadasu Gnaneswar
+![Uber Dashboard](Uber-dashboard.png)  
 
-Tool Used: Microsoft Power BI
+---
 
-Project Type: End-to-End Business Dashboard
+## 👨‍💻 Author  
+**Valadasu Gnaneswar**  
+📧 [Email](mailto:gnaneswargnana@gmail.com) | 💼 [LinkedIn](https://www.linkedin.com/in/valadasu-gnaneswar-821797242/) | 🐙 [GitHub](https://github.com/ValadasuGnaneswar)  
 
-📌 Overview
-This project provides a comprehensive analysis of Uber trip data using interactive dashboards built in Power BI. The aim is to uncover key trends in bookings, revenue, trip distances, and customer preferences to support data-driven decisions.
+---
 
-🎯 Business Objectives
-Understand trip demand patterns by time and location
+## 📌 Project Overview  
+This project is an **end-to-end Power BI dashboard** analyzing Uber trip data to uncover **demand patterns, revenue insights, and customer preferences**.  
+The dashboard is designed to support **data-driven decision-making** for ride-hailing businesses.  
 
-Track total and average revenue, distance, and trip time
+---
 
-Identify peak periods, popular pickup/drop-off points, and preferred vehicle types
+## 🎯 Business Objectives  
+✔️ Identify **peak demand periods** by hour, day, and city  
+✔️ Track **total bookings, revenue, distance, and trip time**  
+✔️ Analyze **pickup & drop-off hotspots**  
+✔️ Understand **customer preferences by vehicle type and payment mode**  
+✔️ Enable **interactive drill-down analysis** for deeper insights  
 
-Enable detailed drill-down analysis for strategic planning
+---
 
-📁 Dashboard Structure
-1️⃣ Overview Analysis
-A summary view that includes:
+## 📂 Dashboard Structure  
 
-KPIs: Total Bookings, Booking Value, Avg Distance/Time
+### 1️⃣ **Overview Analysis**  
+- KPIs: Total Bookings, Total Revenue, Avg Distance, Avg Trip Time  
+- Charts: Booking by Trip Type, Payment Mode  
+- Vehicle Type KPIs & Location Trends  
 
-Charts: Dynamic measure selector, Booking by Trip Type/Payment Type
+### 2️⃣ **Time Analysis**  
+- 10-Min Interval Area Chart → Demand flow across the day  
+- Day-Wise Line Chart → Weekday vs Weekend rides  
+- Hour x Day Heatmap → Peak demand patterns  
+- Global Measure Selector → Switch between bookings, revenue, distance  
 
-Vehicle Type Grid: KPI breakdown by vehicle type
+### 3️⃣ **Details Tab**  
+- Drill-through to **trip-level data**  
+- Grid table with all ride details  
+- Export raw data (CSV/Excel)  
 
-Location Analysis: Top pickup/drop-off points, farthest trips, most preferred vehicles by location
+---
 
-✅ Interactive Elements:
+## 🧠 Key Features  
+- 🔄 **Dynamic Measure Selector** (Disconnected Table)  
+- 🎚️ **Interactive Slicers** with reset button  
+- 🎨 **Conditional Formatting** in grids  
+- 🔗 **Drill-through** between reports  
+- 📝 **Dynamic Titles & Tooltips**  
+- 📤 **One-click Export** of raw trip data  
+- 📑 **Bookmarks** for view toggling  
 
-Dynamic Chart Title
+---
 
-Date, City, Trip Type Slicers
+## 📊 KPIs Tracked  
+- Total Bookings  
+- Total Booking Value  
+- Average Booking Value  
+- Total Trip Distance  
+- Average Trip Distance  
+- Average Trip Time  
 
-Tooltip for detailed metrics
+---
 
-Buttons for: Clear Slicers, Download Raw Data (Power Automate), Data Info Bookmark
+## 🔧 Tools & Techniques  
+- **Microsoft Power BI**  
+- **DAX Measures & Calculations**  
+- Disconnected Tables for dynamic metrics  
+- Drill-through, Bookmarks & Buttons  
+- Area, Line, Heatmap & Matrix visuals  
 
-2️⃣ Time Analysis
-Analyzes bookings based on time to understand hourly and daily ride demand:
+---
 
-10-Min Interval Area Chart – Pickup demand across day
+## 📦 Data Source  
+- **Uber Trip Dataset** (`Excel/CSV`)  
+- Periodically refreshed or manually updated  
 
-Day-Wise Line Chart – Weekday vs Weekend bookings
+---
 
-Hour x Day Heatmap – Booking volume patterns by hour & day
+## 🚀 How to Use  
+1. Clone this repository or download the `.pbix` file  
+2. Open in **Power BI Desktop**  
+3. Use slicers, filters, and buttons to explore data  
+4. Drill through for trip-level analysis  
+5. Export data as needed  
 
-✅ Global Measure Selector – Updates all visuals based on selected metric (Bookings, Revenue, Distance)
+---
 
-3️⃣ Details Tab (Grid View)
-A detailed tab to view individual trip records:
+## 🏷️ Repository Tags  
+`PowerBI` `Data-Analysis` `Business-Intelligence` `Uber` `Dashboard` `Analytics`  
 
-Drill-through enabled from charts to see detailed data
+---
 
-Grid table with essential trip fields
+## 👨‍💻 About the Author  
+Created by **Valadasu Gnaneswar** – Data Analyst skilled in **Power BI, SQL, Excel, and Data Storytelling**.  
+📧 [Email](mailto:gnaneswargnana@gmail.com) | 💼 [LinkedIn](https://www.linkedin.com/in/valadasu-gnaneswar-821797242/) | 🐙 [GitHub](https://github.com/ValadasuGnaneswar)  
 
-Bookmark to toggle full dataset view
-
-Helpful for granular analysis & export needs
-
-🧠 Key Features Implemented
-Dynamic Measure Selector using Disconnected Table
-
-Slicers with Reset/Clear Buttons
-
-Conditional Formatting in Grid Views
-
-Drill-through between dashboards
-
-Dynamic Titles and Tooltips
-
-Raw Data Download Button (CSV/Excel)
-
-Bookmarks for Data Info & Full View toggle
-
-Inactive relationship handling for Pickup vs Drop-off
-
-📊 KPIs Tracked
-Total Bookings
-
-Total Booking Value
-
-Average Booking Value
-
-Total Trip Distance
-
-Average Trip Distance
-
-Average Trip Time
-
-🔍 Tools & Techniques
-Power BI DAX Measures
-
-Disconnected Tables
-
-Matrix and Table visuals
-
-Area/Line/Heatmap charts
-
-Bookmarks & Buttons
-
-Data Model relationships
-
-📦 Data Source
-Uber Trip Dataset (CSV or Excel)
-
-Updated periodically or manually (based on refresh setup)
-
-📤 How to Use
-Open the .pbix file in Power BI Desktop
-
-Use slicers and selectors to explore data dynamically
-
-Use drill-through and bookmarks for deeper insights
-
-Use Export Button for downloading raw trip data
-
-📬 Contact
-For feedback or questions:
-📧 gnaneswargnana@gmail.com
+---
